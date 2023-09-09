@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextClock
+            android:layout_width="320dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center"
+            android:format24Hour ="HH:mm"
+            android:format12Hour ="hh:mm"
+            android:textColor="@color/black"
+            android:textSize="120sp"
+            android:textStyle="bold">
+        </TextClock>
+
+        <TextClock
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:format24Hour ="yyyy-MM-dd E"
+            android:format12Hour ="yyyy-MM-dd E"
+            android:textColor="@color/black"
+            android:textSize="42sp"
+            android:textStyle="bold">
+        </TextClock>
+
+        <TextView
+            android:id="@+id/tvlunar"
+            android:layout_width="220dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:visibility="visible">
+        </TextView>
+
+        <TextView
+            android:id="@+id/SIM"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:visibility="visible">
+        </TextView>
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/simLayout"-->
+        <!--            android:layout_width="300dp"-->
+        <!--            android:layout_height="150dp"-->
+        <!--            android:layout_marginTop="10dp"-->
+        <!--            android:gravity="center_horizontal"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            android:textSize="40sp"-->
+        <!--            android:textStyle="bold"-->
+        <!--            android:visibility="visible">-->
+        <!--        </TextView>-->
+
+    </LinearLayout>
+
+<!--    <ImageView-->
+<!--        android:id="@+id/ImageView"-->
+<!--        android:layout_width="130dp"-->
+<!--        android:layout_height="23dp"-->
+<!--        android:layout_marginStart="110dp"-->
+<!--        android:layout_marginTop="610dp"-->
+<!--        android:background="@mipmap/page1">-->
+<!--    </ImageView>-->
+
+<!--    <Button-->
+<!--        android:layout_width="110dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_marginStart="15dp"-->
+<!--        android:layout_marginTop="630dp"-->
+<!--        android:text="@string/menu"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="50sp"-->
+<!--        android:textStyle="bold"-->
+<!--        style="?android:attr/buttonBarStyle">-->
+
+<!--    </Button>-->
+
+<!--    <Button-->
+<!--        android:layout_width="160dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_marginStart="185dp"-->
+<!--        android:layout_marginTop="630dp"-->
+<!--        android:text="@string/phone_book"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="50sp"-->
+<!--        android:textStyle="bold"-->
+<!--        style="?android:attr/buttonBarStyle">-->
+
+<!--    </Button>-->
+
+</RelativeLayout>
+

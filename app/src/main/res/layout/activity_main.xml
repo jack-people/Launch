@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="610dp"
+        android:layout_gravity="center">
+    </androidx.viewpager.widget.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/ll_dots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="620dp"
+        android:gravity="center"
+        android:orientation="horizontal" />
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="630dp"
+        android:text="@string/menu"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        style="?android:attr/buttonBarStyle"/>
+    <Button
+        android:id="@+id/phonebook"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="630dp"
+        android:text="@string/phone_book"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        style="?android:attr/buttonBarStyle"/>
+
+
+</RelativeLayout>

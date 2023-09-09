@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Launch" parent="Theme.MaterialComponents.Light.Bridge">
+        <item name="android:windowBackground">@drawable/background</item>
+    </style>
+
+    <style name="ActivityLabelStyle">
+        <item name="android:textSize">20sp</item> <!-- Set the font size here -->
+        <item name="android:windowBackground">#9F79EE</item>
+<!--        <item name="android:textColor">#9F79EE</item> &lt;!&ndash; Set the font color here &ndash;&gt;-->
+    </style>
+
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge" />
+
+    <style name="tab_menu_item">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="Base.Theme.Launch" parent="Theme.MaterialComponents.Light.Bridge">
+
+    </style>
+
+    <style name="Base.Launch" parent="Theme.MaterialComponents.Light.Bridge">
+
+    </style>
+</resources>

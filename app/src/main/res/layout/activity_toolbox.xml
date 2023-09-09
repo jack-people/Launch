@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    </androidx.viewpager.widget.ViewPager>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="550dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/filemanager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/filemanager"
+                android:textSize="30sp"
+                android:drawableStart="@mipmap/manager"
+                android:drawablePadding="10dp"
+                android:gravity="start"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <Button
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/black" />
+
+<!--            <Button-->
+<!--                android:id="@+id/lunarcalendar"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/lunarcalendar"-->
+<!--                android:textSize="30sp"-->
+<!--                android:drawableStart="@mipmap/almanac"-->
+<!--                android:drawablePadding="10dp"-->
+<!--                android:gravity="start"-->
+<!--                style="?android:attr/borderlessButtonStyle"/>-->
+
+<!--            <Button-->
+<!--                style="?android:attr/borderlessButtonStyle"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:background="@color/black" />-->
+
+            <Button
+                android:id="@id/calendar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/calendar"
+                android:textSize="30sp"
+                android:drawableStart="@mipmap/calendar"
+                android:drawablePadding="10dp"
+                android:gravity="start"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <Button
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/black" />
+
+            <Button
+                android:id="@+id/clock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/clock"
+                android:textSize="30sp"
+                android:drawableStart="@mipmap/clock"
+                android:drawablePadding="10dp"
+                android:gravity="start"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <Button
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/black" />
+
+            <Button
+                android:id="@+id/callblocking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/callblocking"
+                android:textSize="30sp"
+                android:drawableStart="@mipmap/callblocking"
+                android:drawablePadding="10dp"
+                android:gravity="start"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <Button
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/black" />
+
+            <Button
+                android:id="@+id/calculator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@mipmap/cal"
+                android:gravity="start"
+                android:text="@string/calculator"
+                android:drawablePadding="10dp"
+                android:textSize="30sp"
+                style="?android:attr/borderlessButtonStyle"/>
+
+            <Button
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/black" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="@string/confirm"
+            android:textColor="@color/black"
+            android:textSize="70sp"
+            android:textStyle="bold"
+            android:onClick="confirm"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="@string/back"
+            android:textColor="@color/black"
+            android:textSize="70sp"
+            android:textStyle="bold"
+            android:onClick="back"
+            style="?android:attr/borderlessButtonStyle"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

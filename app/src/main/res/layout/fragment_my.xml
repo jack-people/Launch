@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="630dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:columnCount="4"
+                    android:rowCount="2">
+
+                    <Button
+                        android:id="@+id/btn_cancel"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/button_height"
+                        android:layout_columnWeight="1"
+                        android:gravity="center"
+                        android:text="@string/recentlyplayed"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/button_font_size"
+                        style="?android:attr/borderlessButtonStyle"/>
+
+                    <Button
+                        android:id="@+id/btn_divide"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/button_height"
+                        android:layout_columnWeight="1"
+                        android:gravity="center"
+                        android:text="@string/localdownload"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/button_font_size" />
+
+                    <Button
+                        android:id="@+id/btn_multiply"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/button_height"
+                        android:layout_columnWeight="1"
+                        android:gravity="center"
+                        android:text="@string/clouddisk"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/button_font_size" />
+
+                    <Button
+                        android:id="@+id/btn_clear"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/button_height"
+                        android:layout_columnWeight="1"
+                        android:gravity="center"
+                        android:text="@string/purchased"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/button_font_size" />
+
+                    <Button
+                        android:id="@+id/btn_seven"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/button_height"
+                        android:layout_columnWeight="1"
+                        android:gravity="center"
+                        android:text="@string/myfriend"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/button_font_size" />
+
+                    <Button
+                        android:id="@+id/btn_eight"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/button_height"
+                        android:layout_columnWeight="1"
+                        android:gravity="center"
+                        android:text="@string/collectionsandlikes"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/button_font_size" />
+
+                    <Button
+                        android:id="@+id/btn_nine"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/button_height"
+                        android:layout_columnWeight="1"
+                        android:gravity="center"
+                        android:text="@string/mypodcast"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/button_font_size" />
+
+                    <Button
+                        android:id="@+id/btn_plus"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/button_height"
+                        android:layout_columnWeight="1"
+                        android:gravity="center"
+                        android:text="@string/musicfangroup"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/button_font_size" />
+
+                </GridLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+</RelativeLayout>
